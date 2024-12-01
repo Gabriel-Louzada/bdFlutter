@@ -21,5 +21,6 @@ class UserRepo {
       UserComponents usuario = UserComponents(i["id"], nome: i["name"], idade: i["age"]);
       listaUsuario.add(usuario);
     }
+    return listaUsuario;
   }
 }

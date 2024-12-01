@@ -21,3 +21,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+//LEMBRESSE DE COLOCAR O SQLITE3.DLL DENTRO DA PASTA NESSE CAMINHO PARA DEPURAR O SISTEMA 
+//C:\Users\billo\OneDrive\Documentos\Alura\flutter\bdFlutter\crudflutter\build\windows\x64\runner\Debug
