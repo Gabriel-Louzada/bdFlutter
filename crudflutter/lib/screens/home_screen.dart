@@ -38,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Center(
         child: Container(
-          width: 500,
+          width: 700,
           color: Colors.blue,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
@@ -68,6 +68,22 @@ class _HomeScreenState extends State<HomeScreen> {
                       color: Colors.white60,
                       child: const Text(
                         "Idade",
+                        style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                    Container(
+                      width: 65,
+                      color: Colors.white60,
+                      child: const Text(
+                        "Alterar",
+                        style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+                      ),
+                    ),
+                    Container(
+                      width: 75,
+                      color: Colors.white60,
+                      child: const Text(
+                        "Remover",
                         style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
                       ),
                     ),
